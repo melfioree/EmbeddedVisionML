@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+IMG_CLASS/dataset/
+OBJ_DETECT/dataset/
