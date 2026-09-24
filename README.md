@@ -4,7 +4,7 @@
 
 Projeto da disciplina **IESTI05 – Machine Learning System Engineering** (UNIFEI), sob
 orientação do Prof. Marcelo Rovai ([@Mjrovai](https://github.com/Mjrovai)). Dois pipelines de
-Edge AI — do dataset ao deploy em tempo real — rodando em um **Raspberry Pi Zero 2 W**.
+Edge AI, do dataset ao deploy em tempo real, rodando em um **Raspberry Pi Zero 2 W**.
 
 ## Estrutura
 
@@ -34,8 +34,8 @@ das lentes.
 
 ## Ambiente
 
-Raspberry Pi Zero 2 W + câmera · Python (`ai-edge-litert`, `opencv-python`, `picamera2`,
-`pillow`, `numpy`)
+Raspberry Pi Zero 2 W + câmera · Python (`ai-edge-litert`, `opencv-python`, `picamera2`,`matplotlib`,
+`pillow`, `numpy`) · Jupyter Notebook
 
 ## Créditos
 
@@ -56,10 +56,10 @@ Edge AI project for **IESTI05 – Machine Learning System Engineering** (UNIFEI)
 Marcelo Rovai ([@Mjrovai](https://github.com/Mjrovai)). Two pipelines deployed in real time on a
 **Raspberry Pi Zero 2 W**:
 
-- **Image Classification** (`IMG_CLASS/`) — 3-class model (leaf, glasses, background) via Edge
+- **Image Classification** (`IMG_CLASS/`): 3-class model (leaf, glasses, background) via Edge
   Impulse, comparing INT8 vs. Float32.
   🔗 https://studio.edgeimpulse.com/public/1108983/live
-- **Object Detection** (`OBJ_DETECT/`) — custom mugs/glasses detector (Roboflow annotation +
+- **Object Detection** (`OBJ_DETECT/`): custom mugs/glasses detector (Roboflow annotation +
   Edge Impulse, MobileNetV2 SSD FPN-Lite) with a custom NMS implementation.
   🔗 https://studio.edgeimpulse.com/public/1118984/live
 
